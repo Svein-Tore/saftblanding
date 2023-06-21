@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="29BEA07F60679985D77F378DA68967CE695D603CB138BAAF2BCDEAB55AFABB234A12327421C07526B4690EF4404AEBF58A666315211CC6A016B500159D6251D5" Timestamp="1D9A28D04B369D5" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="DC183F6E4E09A0A982BB1A9623BA76E9590D88055586499478E012213CDDFDCE42577CF1B7A2A8F0FD6F92F5BFCAACADB8B941363D12D26718A4DBC5B99E2F0C" Timestamp="1D9A454F1BE2F5C" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -58,19 +58,19 @@
 				<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<NodeLabel AttachedTo="6ff0bd4871834847ae49ab90c2bb975e" Bounds="45 0 30 15" Id="58cc718910584de28e6df2a4b26aa187" xmlns="http://www.ni.com/PlatformFramework">
-				<p.Text>URL Image_2</p.Text>
+				<p.Text>"    P-1"</p.Text>
 			</NodeLabel>
 			<DataAccessor Bounds="0 0 40 15" DataItem="ed2d3d5f14924039af0bdf97c6765a70" Id="81c42480deb34ab99878619af2aad374" Label="a82620a6d622416aa443d5d0160e2245">
 				<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<NodeLabel AttachedTo="81c42480deb34ab99878619af2aad374" Bounds="45 0 30 15" Id="a82620a6d622416aa443d5d0160e2245" xmlns="http://www.ni.com/PlatformFramework">
-				<p.Text>URL Image_3</p.Text>
+				<p.Text>"    P-2"</p.Text>
 			</NodeLabel>
 			<DataAccessor Bounds="0 0 40 15" DataItem="1b2991eda7094fd4a875b08ca2c2d78a" Id="a62f8cc471794421948b71edc0d25958" Label="8450bbe5bfaa49a6bcb5af136ddd9979">
 				<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<NodeLabel AttachedTo="a62f8cc471794421948b71edc0d25958" Bounds="45 0 30 15" Id="8450bbe5bfaa49a6bcb5af136ddd9979" xmlns="http://www.ni.com/PlatformFramework">
-				<p.Text>URL Image_4</p.Text>
+				<p.Text>"    P-3"</p.Text>
 			</NodeLabel>
 		</DiagramUnplacedItems>
 		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0">
@@ -1530,9 +1530,9 @@
 			<LED BaseName="[string]LED" FalseBackground="[SMSolidColorBrush]#ffff0000" FalseContent="[string]Off" Height="[float]11" Id="b30defa337184fc0923498e1e544e567" IsReadOnly="[bool]True" Label="[UIModel]f35bea7e1d7843f2a0e8580cc615cf4f" Left="[float]682" Shape="[LEDShape]Round" TabIndex="[int]65" Top="[float]564" TrueBackground="[SMSolidColorBrush]#ff00b050" TrueContent="[string]On" Value="{DataItemBinding Id=9a7f00f9b0f643f2b85bce8fb5ac0283}" Width="[float]11" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Height="[float]16" Id="f35bea7e1d7843f2a0e8580cc615cf4f" LabelOwner="[UIModel]b30defa337184fc0923498e1e544e567" Left="[float]682" Text="[string]LED_19" Top="[float]544" Visible="[bool]False" Width="[float]39" xmlns="http://www.ni.com/PanelCommon" />
 			<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="53df8ae0a95c4473bed6a43a61070788" Label="[UIModel]b35903bbfd214744895c2ef9769cff28" Left="[float]459" Source="{DataItemBinding Id=c74e0a6089374468aedf050f16991cc7}" Stretch="[SMStretch]Uniform" TabIndex="[int]66" Top="[float]192" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<Label Height="[float]16" Id="b35903bbfd214744895c2ef9769cff28" LabelOwner="[UIModel]53df8ae0a95c4473bed6a43a61070788" Left="[float]459" Text="[string]URL Image_2" Top="[float]172" Visible="[bool]False" Width="[float]69" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Height="[float]16" Id="b35903bbfd214744895c2ef9769cff28" LabelOwner="[UIModel]53df8ae0a95c4473bed6a43a61070788" Left="[float]459" Text="[string]    P-1" Top="[float]172" Width="[float]32" xmlns="http://www.ni.com/PanelCommon" />
 			<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="7fd31ef2079149f985d71059cafb6cc5" Label="[UIModel]a6dee49d94b544baa47d28eb9135ad7f" Left="[float]314" Source="{DataItemBinding Id=ed2d3d5f14924039af0bdf97c6765a70}" Stretch="[SMStretch]Uniform" TabIndex="[int]67" Top="[float]191" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<Label Height="[float]16" Id="a6dee49d94b544baa47d28eb9135ad7f" LabelOwner="[UIModel]7fd31ef2079149f985d71059cafb6cc5" Left="[float]314" Text="[string]URL Image_3" Top="[float]171" Visible="[bool]False" Width="[float]69" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Height="[float]16" Id="a6dee49d94b544baa47d28eb9135ad7f" LabelOwner="[UIModel]7fd31ef2079149f985d71059cafb6cc5" Left="[float]314" Text="[string]    P-2" Top="[float]171" Width="[float]32" xmlns="http://www.ni.com/PanelCommon" />
 			<LED BaseName="[string]LED" FalseContent="[string]Off" Height="[float]9" Id="fcb7f5d5434145488d9b9033d2d6f664" IsReadOnly="[bool]True" Label="[UIModel]b6bb28c47e3f4b1eb9fd9622cffe4760" Left="[float]195" Shape="[LEDShape]Square" TabIndex="[int]68" Top="[float]207" TrueContent="[string]On" Value="{DataItemBinding Id=86b5aecb7c9c47709373a4bb4214f20d}" Width="[float]121" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<HtmlBehavior ClassAttributes="height" xmlns="http://www.ni.com/PlatformFramework" />
 			</LED>
@@ -1550,7 +1550,7 @@
 			</LED>
 			<Label Height="[float]16" Id="87714849fff2450a9663a14d38d59764" LabelOwner="[UIModel]65a329b3acd54fb6a54f01bfb6265a3d" Left="[float]596" Text="[string]LED_58" Top="[float]163" Visible="[bool]False" Width="[float]39" xmlns="http://www.ni.com/PanelCommon" />
 			<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]40" Id="e6abff50f8da4fff919f43d4289353bc" Label="[UIModel]9bd7b7f8bc674986a3280b44f98a74fa" Left="[float]540" Source="{DataItemBinding Id=1b2991eda7094fd4a875b08ca2c2d78a}" Stretch="[SMStretch]Uniform" TabIndex="[int]72" Top="[float]356" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<Label Height="[float]16" Id="9bd7b7f8bc674986a3280b44f98a74fa" LabelOwner="[UIModel]e6abff50f8da4fff919f43d4289353bc" Left="[float]540" Text="[string]URL Image_4" Top="[float]336" Visible="[bool]False" Width="[float]69" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Height="[float]16" Id="9bd7b7f8bc674986a3280b44f98a74fa" LabelOwner="[UIModel]e6abff50f8da4fff919f43d4289353bc" Left="[float]540" Text="[string]    P-3" Top="[float]336" Width="[float]32" xmlns="http://www.ni.com/PanelCommon" />
 			<LED BaseName="[string]LED" FalseContent="[string]Off" Height="[float]8" Id="8a5d053b4ff84ce5aa3f892702505044" IsReadOnly="[bool]True" Label="[UIModel]deb1d42fc3da49b3befc39aec2424a09" Left="[float]499" Shape="[LEDShape]Square" TabIndex="[int]73" Top="[float]372" TrueContent="[string]On" Value="{DataItemBinding Id=e65480751d6d401c884991a7efeb5e2e}" Width="[float]44" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<HtmlBehavior ClassAttributes="height" xmlns="http://www.ni.com/PlatformFramework" />
 			</LED>
@@ -1794,10 +1794,10 @@
 		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="90d8f96b203c4ba7866a6bb4f305b5f1" Name="LED_55" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>False</p.DefaultValue>
 		</DataItem>
-		<DataItem AdaptToDiagramType="True" DataType="String" Id="c74e0a6089374468aedf050f16991cc7" Name="URL Image_2" xmlns="http://www.ni.com/MocCommon">
+		<DataItem AdaptToDiagramType="True" DataType="String" Id="c74e0a6089374468aedf050f16991cc7" Name="&quot;    P-1&quot;" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>images/doserpumpe.png</p.DefaultValue>
 		</DataItem>
-		<DataItem AdaptToDiagramType="True" DataType="String" Id="ed2d3d5f14924039af0bdf97c6765a70" Name="URL Image_3" xmlns="http://www.ni.com/MocCommon">
+		<DataItem AdaptToDiagramType="True" DataType="String" Id="ed2d3d5f14924039af0bdf97c6765a70" Name="&quot;    P-2&quot;" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>images/doserpumpe_H.png</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="86b5aecb7c9c47709373a4bb4214f20d" Name="LED_33" xmlns="http://www.ni.com/MocCommon">
@@ -1812,7 +1812,7 @@
 		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="73bbe4e6e9d744a99a5ea91b083b3c4d" Name="LED_58" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>False</p.DefaultValue>
 		</DataItem>
-		<DataItem AdaptToDiagramType="True" DataType="String" Id="1b2991eda7094fd4a875b08ca2c2d78a" Name="URL Image_4" xmlns="http://www.ni.com/MocCommon">
+		<DataItem AdaptToDiagramType="True" DataType="String" Id="1b2991eda7094fd4a875b08ca2c2d78a" Name="&quot;    P-3&quot;" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>images/doserpumpe_H.png</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="e65480751d6d401c884991a7efeb5e2e" Name="LED_59" xmlns="http://www.ni.com/MocCommon">
